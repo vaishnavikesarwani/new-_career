@@ -1,0 +1,178 @@
+<html>
+<head>
+    <title>Career</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+
+</head>
+
+<body>
+
+    <!-------header------->
+
+    <section id="header">
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="images/logotiny.png">Learnopad</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">More</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><button>Sign in</button></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+        <div class="banner text-center">
+        </div>
+        <div class="openings text-center">
+            <label>Join the Learnopad</label><br>
+            <input type="button" class="bt btn-primary" value="View open positions" id="view">
+            <input type="button" class="bt btn-default" value="Learn More" id="view">
+        </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="top-head">
+          <label>Welcome to Learnopad</label>
+        </div>
+
+      <div class="main">
+        <div class="heading">
+          <label>About us</label>
+        </div>
+        <div class="about-us"> 
+        <div class=" col-md-6 content" style="width:50%;">
+          <p>TMHM is a career-oriented platform which envisions ameliorating your skills by providing you with career set-up programs to explore and compete with the competitive world. 
+            We offer various courses related to business, web designing, marketing, development and much more. We make the process easy going for students and job seekers who are willing to explore 
+            all the career paths and transform their hidden talents and skills into their profession.<span id="dots">...</span><span id="more"> 
+            We work for the betterment and growth of the newly joined employees in the corporate world by training them in personality development, soft skills and overall professional growth. 
+            Our mission is ‘to bring talent to limelight’. We want each and everyone to explore their inner talents and lead a successful life. 
+            We also provide parent-child counseling and psychometric assessment which will help you catch up with the ongoing scenario. We are looking forward to helping you in admissions and placements, campus branding and enhancing credibility.
+          
+            We wish to achieve milestones with you. Our team members are committed to support you.</span></p> 
+
+            <button onclick="myFunction()" id="myBtn" style="background-color: rgba(11, 113, 247, 0.747); color:aliceblue;">Read more...</button>  
+        </div>
+
+        <div class="col-md-6 image">
+          <center><img src="images/product-team.jpg" style=" height:40vh;  line-height:100vh;"></center> 
+        </div>
+        </div>
+      </div>
+
+      <div class="vision">
+         <div class="col-md-6 image">
+          <center><img src="images/product-team.jpg" style=" height:40vh;  line-height:100vh;"></center>
+         </div>
+    
+         <div class="col-md-6 content" style="width:50%;">
+           <label>Our vision</label>
+           <p>We bring the talent to limelight.  
+
+           In the cosmos of TMHM you will illuminate and hone your skills for a radiant future.  
+           
+          <br>Fringe benefits of connecting with us: 
+           <ul>
+           <li>Put an edge on learning with highly experienced facilitators.</li> 
+           <li>   Procure an internship  </li>  
+           <li>Scrutinize your aims  </li>
+           <li>Leave no stone unturned  </li>
+           <li>Insight to self-pace learning  </li>
+           
+            </ul>
+           We ensure to ferry you to your dream career by  
+           <ul>
+             <li>Transformation</li>
+             <li>Refinement</li>
+             <li>Persistence and certitude</li>
+           </ul>
+           </p>
+
+ 
+         </div>
+
+      </div>
+
+    <section>
+      <div class="Technologies">
+        <center><label id="heading">Technologies we use</label></center>  
+
+      <div class="technology-name">
+        <center> 
+        <ul>
+          <li><img src="images/angularjs.jpg" style="width:200px;"></li>
+          <li><img src="images/django.png" style="width:200px;"></li>
+          <li><img src="images/nodejs.png" style="width:200px;"></li>
+          <li><img src="images/reactjs.png" style="width:200px;"></li>
+          
+        </ul>
+      </center>
+      </div>
+      </div>
+    </section>
+
+      <div class="culture">
+          <div class="heading">
+            <label>Culture in TMHM</label>
+          </div>
+          <div class="team-name">
+            <ol>
+              <li><label>Product-Team</label></li>
+              <li><label>HR-Team</label></li>
+              <li><label>Sales-Team</label></li>
+              <li><label>Marketing-Team</label></li>
+              <li><label>Content-Team</label></li>
+              
+            </ol>
+          </div>
+          <div class="team">
+            <center><a href="teams.html">know more...</a></center> 
+          </div>
+ 
+      </div>
+      
+    </div>
+    </section>
+
+    
+</body>
+</html>

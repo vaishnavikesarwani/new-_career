@@ -1,0 +1,236 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+body{
+    overflow-x: auto;
+}
+.menu-bar
+{
+    background-image: linear-gradient(to right,#fff,#7ce08944);
+    
+}
+.menu-bar .navbar ul li .nav-link button
+{
+    border-radius: 0.5cm;
+    width:60px;
+}
+.nav-link{
+
+font-size:16px;
+color:#000 !important;
+margin:2px;
+}
+.navbar-nav
+{
+    text-align:right;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right:0;
+    outline:none;
+    border:none;
+}
+
+.banner
+{
+    height:70vh;
+    background-image:url(images/elearning.png);
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+}
+.openings
+{
+    padding:20px 0;
+    margin:-70px 20% 10px;
+    background-image:linear-gradient(to right,#f5f5f0,#f5f5f0);
+    border-radius:0.5cm;
+}
+
+
+.openings label
+{
+    font-size:2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.openings #view
+{
+    width:15em;
+    height:10vh;
+    border-radius:0.5cm;
+    margin:4px;
+    font-weight:bold;
+    font-size:20px;
+}
+#more 
+{
+    display: none;
+}
+.about-us
+{
+    display: inline-flex;
+}
+.container .top-head
+{
+    text-align:center;
+    font-size:2em;
+    font-weight: bold;
+    font-style: italic;
+    margin-top:10px;
+}
+
+.container .main .heading label
+{
+    font-weight:bold;
+    font-size:2em;
+    font-style:italic;
+}
+
+.container .main{
+    margin-top:5em;
+}
+.container .vision
+{
+    display:inline-flex;
+    margin-top:5em;
+}
+
+.container .vision .content label
+{
+    
+    font-weight:bold;
+    font-size:2em;
+    font-style:italic;
+}
+.container .Technologies
+{
+    background-color: #f5f5f0;
+    height:50vh;
+    margin-top:50px;
+}
+.container .Technologies #heading
+{
+    font-weight:bold;
+    font-size:20px;
+    font-style: oblique;
+    margin-top:2em;
+}
+
+.container .Technologies .technology-name ul li{
+    display:inline-block;
+    list-style-type:none;
+    line-height:50vh;
+    text-align:center;
+}
+.container .Technologies .technology-name ul li img{
+    padding:30px;
+}
+.container .culture
+{
+    margin-top:5em;
+    background-color: #f5f5f0;
+}
+
+.container .culture .heading
+{
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+.container .culture .team-name ol
+{
+    margin-left:50px;
+}
+.container .culture .team-name ol li label
+{
+    font-size:20px;
+    font-weight: bold;
+    font-style:italic;
+    color: #4ddbff;
+}
+.container .culture .team
+{
+    margin-bottom: 20px;
+}
+.container .culture .team a
+{
+    
+    font-weight: bold;
+}
+.container .culture .product-team .content label
+{
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+.container .culture .product-team
+{
+    display:inline-flex;
+}
+
+.container .culture .marketing-team
+{
+    display:inline-flex;
+    margin-top:30px;
+}
+
+.container .culture .HR-team
+{
+    display:inline-flex;
+    margin-top:30px;
+}
+.container .culture .content-team
+{
+    display:inline-flex;
+    margin-top:30px;
+}
+
+.container .culture .sales-team
+{
+    display:inline-flex;
+    margin-top:30px;
+}
+
+.container .culture .marketing-team .content 
+{
+    margin-left:20px;
+}
+.container .culture .marketing-team .content label
+{
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+
+.container .culture .HR-team .content label
+{
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+
+.container .culture .sales-team .content label
+{
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+.container .culture .content-team .content label
+{
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+}
+ 
+ 
